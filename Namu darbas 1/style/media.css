@@ -1,0 +1,22 @@
+@media (max-width:1364px){
+    
+    .fa-bars{
+    display: block;
+        font-size: 70px;
+        
+}
+    .text{
+    display: none;
+}
+    
+}
+@media (max-width:1200px){
+    .list{
+        width: 80%;
+        
+    }
+    
+    
+    
+    
+}

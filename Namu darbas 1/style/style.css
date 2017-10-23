@@ -1,0 +1,322 @@
+body{
+    margin: auto;
+    font-family: 'Baloo Da', cursive;
+    
+}
+.article{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+section.price-plan{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper{
+    width: 28%;
+    height: 580px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 8px grey inset;
+}
+.box{
+    border: 1px solid black;
+    height: 1px;
+    width: 85%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    margin-bottom: 7%;
+    margin-top: 7%;
+    
+}
+h4{
+    margin-top: 10%;
+    font-size: 35px;
+    margin-left: 10%;
+    color: #FAAC58;
+    
+}
+h1{
+    margin-top: 10px;
+    font-size: 40px;
+    color: #FAAC58;
+}
+h2{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+}
+.price-bunker{
+    display: inline-block;
+    width: 85%;
+    margin-left: 7.5%;
+    height: 75px;
+    
+    
+}
+.price{
+    width: 100px;
+    height: 80px; 
+    display: inline-block;
+    line-height: 80px;
+    
+}
+h5{
+    font-size: 65px;
+    margin-top: -17px;
+    
+}
+.text{
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    color: #424242;
+}
+.price-bunker h5:before{
+    content: '€';
+    font-size: 30px;
+    vertical-align:text-top;
+    color: #424242;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+p{
+   margin-left: 20%; 
+    margin-top: -20px;
+    color: #424242;
+}
+.list{
+    margin-left: 7.5%;
+    font-size: 22px;
+    width: 280px;
+}
+li{
+    margin-bottom: 10%;
+}
+.list li:before{
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #FAAC58;
+    margin-right: 10px;
+}
+.box2{
+    width: 80%;
+    height: 50px;
+    background-color: #424242;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+h6{
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.fa-bars{
+    display: none;
+    
+}
+.fa{
+    width: 65px;
+    float: right;
+}
+.wrapper:after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: #424242;
+    opacity: 0.8;
+    top:0;
+    left: 0;
+    transition: .5s;
+    transform:scaleX(0);
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+.wrapper:hover:after{
+    transform: scaleX(1);
+}
+.first:hover h4{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.first:hover h5{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.first:hover p2{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.first:hover p{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.first:hover li{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.first:hover .box{
+    content: '';
+    border-color: white;
+    transition: .5s;
+}
+.first:hover .fa-bars{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.first:hover .box2{
+    content: '';
+    background-color: black;
+    transition: 2s;
+}
+.first:hover .box{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.price-plan:hover .first{
+    content: '';
+    border-color: black;
+    transition: 3s;
+}
+.box2:after{
+    content: '';
+    height: 0%;
+    width: 100%;
+    display: inline-block;
+    background-color: seagreen;
+    opacity: 0.6;
+    top:0;
+    left: 0;
+    transition: 0.8s;
+    position:absolute;
+    z-index: -0.5;
+    
+    
+    
+}
+.box2:hover:after{
+    height: 100%;
+}
+
+.second:hover h4{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.second:hover h5{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.second:hover p2{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.second:hover p{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.second:hover li{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.second:hover .box{
+    content: '';
+    border-color: white;
+    transition: .5s;
+}
+.second:hover .fa-bars{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.second:hover .box2{
+    content: '';
+    background-color: black;
+    transition: 2s;
+}
+.second:hover .box{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.price-plan:hover .second{
+    content: '';
+    border-color: black;
+    transition: 3s;
+}
+.last:hover h4{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.last:hover h5{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.last:hover p2{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.first:hover p{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.last:hover li{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.last:hover .box{
+    content: '';
+    border-color: white;
+    transition: .5s;
+}
+.last:hover .fa-bars{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.last:hover .box2{
+    content: '';
+    background-color: black;
+    transition: 2s;
+}
+.last:hover .box{
+    content: '';
+    color: white;
+    transition: .5s;
+}
+.price-plan:hover .last{
+    content: '';
+    border-color: black;
+    transition: 3s;
+}

@@ -1,0 +1,55 @@
+@keyframes race{
+    0%{
+        
+    }
+    25%{
+        background: red;
+        border-color: black;
+        left: 700px;
+        top: 0;
+    }
+    50%{
+        left: 700px;
+        top: 360px;
+        background: red;
+        border-color: black;
+        transform: rotate(180deg)
+        
+    }
+    75%{
+        left: 0;
+        top: 360px;
+        background: red;
+        border-color: black;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+@keyframes loading{
+    0%{
+        transform: scaleY(0);
+    }
+    50%{
+         transform: scaleY(1);
+        background: darkgreen;
+    }
+    75%{
+        background: greenyellow;
+    }
+    100%{
+        transform: scaleY(0);
+    }
+}
+@keyframes spinner{
+    0%{
+        transform: scale(1) rotate(0)
+    }
+    50%{
+        transform: scale(1.4) rotate(180deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}

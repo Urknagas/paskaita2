@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+
+    
+.container{
+    max-width: 900px;
+    margin: auto;
+    width: 90%;
+    
+    
+}
+
+section.price-plan{
+    border: 1px dashed black;
+    height: 300px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper{
+    width: 20%;
+/*    flex:1; padaro visus vaikinius elementus vienodo plocio*/
+    height: 200px;
+    border: 1px dashed red;
+/*    flex:1 pritraukt viena prie kito;*/
+    font-size: 50px;
+}
+@media (max-width:900px){
+    .first{
+        order:1;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    section.price-plan{
+        flex-wrap: wrap;  
+    }
+/*    nuima elementu talpinima vienoj eilej*/
+}

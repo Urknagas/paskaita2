@@ -1,0 +1,94 @@
+@keyframes eyedot{
+    0%{
+    
+    }
+    15%{
+        margin-left: 53%;
+    
+    }
+    30%{
+        margin-left: 53%;
+        top: 100px;
+    }
+    45%{
+        margin-left: 53%;
+        top: 110px;
+    }
+    60%{
+        margin-left: 52%;
+        top: 115px;
+    }
+    75%{
+        top: 110px;
+        margin-left: 51.5%;
+    }
+    100%{
+        margin-left: 52%;
+    top: 90px; 
+    }
+}
+@keyframes eyedot2{
+    0%{
+    
+    }
+    15%{
+        margin-left: 46%;
+    
+    }
+    30%{
+        margin-left: 46%;
+        top: 100px;
+    }
+    45%{
+        margin-left: 46%;
+        top: 110px;
+    }
+    60%{
+        margin-left: 47%;
+        top: 115px;
+    }
+    75%{
+        top: 110px;
+        margin-left: 47.5%;
+        
+    }
+    100%{
+        margin-left: 47%;
+    top: 90px;
+    }
+}
+@keyframes mouth{
+    0%{
+        
+    }
+    50%{
+        width: 20px;
+        height: 70px;
+        margin-left: 50%;
+    top: 170px; 
+    }
+    100%{
+        
+    }
+}
+@keyframes li{
+    0%{
+        
+        }
+    25%{
+            top: -5px;
+        color: gray;
+        border-radius: 40%;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+            top: -5px;
+        color: gray;
+        
+        }
+    100%{
+        
+    }
+}
